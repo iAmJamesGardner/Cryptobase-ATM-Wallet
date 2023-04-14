@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SceneHeader should render with loading props 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "justifyContent": "center",
+          "marginHorizontal": 22,
+          "paddingBottom": 22,
+        },
+        Object {
+          "marginTop": 22,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginRight": 22,
+        }
+      }
+    >
+      <Text
+        adjustsFontSizeToFit={true}
+        minimumFontScale={0.65}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#FFFFFF",
+              "fontFamily": "Quicksand-Regular",
+              "fontSize": 22,
+              "includeFontPadding": false,
+            },
+            Object {
+              "fontFamily": "Quicksand-Medium",
+              "fontSize": 27,
+            },
+            null,
+          ]
+        }
+      >
+        string
+      </Text>
+    </View>
+    hello
+  </View>,
+  <BVLinearGradient
+    colors={
+      Array [
+        452984831,
+        452984831,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 1,
+        "y": 0.5,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0.5,
+      }
+    }
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+          "height": 1,
+        },
+        Object {
+          "marginBottom": 0,
+          "marginLeft": 22,
+          "marginRight": 0,
+          "marginTop": 0,
+        },
+      ]
+    }
+  />,
+]
+`;
